@@ -1,0 +1,119 @@
+header {
+  text-align: center;
+  background: #f7f7f7;
+  background-size: cover;
+  margin: 0 0 50px 0;
+}
+
+body {
+  background: #f7f7f7;
+  margin: 60px auto;
+  text-align: center;
+}
+
+nav ul, footer ul {
+  text-align: center;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+  font-size: 1em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.h1 {
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  color: #bda33e;
+}
+
+.subtext {
+  font-family: verdana;
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+main {
+ position: absolute;
+ width: 100%;
+}
+
+article {
+  background: #ffffff;
+  left: 10px;
+  width: 75%;
+  position: relative;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  margin:0px 0px 10px 0px;
+  text-align: left;
+  border-style:dashed;
+  border-color:#bda33e;
+  height: 210px;
+}
+
+h2 {
+ font-family: 'Dancing Script', cursive;
+ color: #000000;
+ font-size: 1.5em;
+ margin-bottom: 0px;
+ position: relative;
+ padding-top: 5px;
+ padding-left: 10px;
+}
+
+span {
+ font-family: verdana;
+ font-size: 0.8em;
+ padding-bottom: 10px;
+ padding-left: 10px;
+}
+
+.blog { 
+ font-family: verdana;
+ font-size: 1em;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+.section {
+ background: #ffffff;
+ width: 20%;
+ text-align: center;
+ position: absolute;
+ left: 78%;
+ border-radius: 5px;
+ color: #000000;
+ border-style:dashed;
+ border-color:#bda33e;
+}
+
+.link {
+ color: #999;
+}
+
+ul {
+ list-style-type: none;
+ text-align: center;
+ padding-left: 20px;
+}
+
+.blogimg {
+float: left;
+margin: 10px; 
+height: 200px;
+}

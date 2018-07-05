@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Jennifer Fox-- Overview of Programming Languages </title>
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="/css/blogpostings.css">
+</head>
+<body>
+   <nav>
+    <ul>
+       <li><a href="/blog">Back to the blog</a></li>
+    </ul>
+    </nav>
+
+   <h1>TITLE</h1>
+   <p>QUICK SUBLINE</p>
+  
+   <div class="content"> 
+      <h2>HEADING</h2>
+      <h3>SUBHEADING</h3>
+      <p></p>
+</div> 
+   
+   <h2></h2>
+<body>
