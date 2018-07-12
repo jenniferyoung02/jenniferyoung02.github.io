@@ -8,7 +8,7 @@ header {
 body {
     margin: 60px auto;
     width: 70%;
-    text-align: center;
+    text-align: left;
     background:	#f7f7f7;
 }
 
@@ -41,9 +41,10 @@ h1, h2, h3 {
 h1, h2, h3, p {
     color: #000000;
 }
-h1 {    
+h1 {
     font-size: 3em;
     color: #bda33e;
+    text-align:  center;
 }
 
 h2 {
@@ -58,6 +59,10 @@ p {
     font-size: 1em;
     line-height: 1.4em;
     font-family: Verdana, Geneva, sans-serif;
+}
+
+#who {
+    text-align: center;
 }
 
 footer {
@@ -78,4 +83,182 @@ img.profile {
     border-radius: 10px;
     height: 250px;
     width: 250px;
+    text-align: center;
 }
+
+
+/** Timeline style**/
+#experience {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1% 5%;
+  font-size: 100%;
+  color: #999;
+}
+
+#timeline {
+  list-style: none;
+  margin: 50px 0 30px 120px;
+  padding-left: 30px;
+  border-left: 8px solid #636f83;
+}
+
+#timeline li {
+  margin: 40px 0;
+  position: relative;
+}
+
+#timeline p {
+  margin: 0 0 15px;
+}
+
+.date {
+  margin-top: -10px;
+  top: 50%;
+  left: -200px;
+  font-size: 0.95em;
+  line-height: 20px;
+  position: absolute;
+}
+
+.circle {
+  margin-top: -10px;
+  top: 50%;
+  left: -44px;
+  width: 10px;
+  height: 10px;
+  background: #737171;
+  border: 5px solid #d5d5d5;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+
+/**Job Description style (before and after) */
+.jobdescrip {
+  max-height: 20px;
+  padding: 50px 20px 0;
+  border: 2px solid #bda33e;
+  border-radius: 20px;
+  position: relative;
+}
+
+.jobdescrip:before, .jobdescrip:after {
+  jobdescrip: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  pointer-events: none;
+  right: 100%;
+}
+.jobdescrip:before {
+  top: 50%;
+  margin-top: -20px;
+}
+.jobdescrip:after {
+  top: 50%;
+  margin-top: -17px;
+}
+.jobdescrip p {
+  color: transparent;
+  max-height: 0;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  overflow: hidden;
+  letter-spacing: -1px;
+}
+
+label {
+  font-size: 1.2em;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  top: 20px;
+  left: 20px;
+  transition: transform 0.2s linear;
+}
+
+/**When clicked animation **/
+.radio {
+  display: none;
+}
+
+.radio:checked + .relative label {
+  cursor: auto;
+  transform: translateX(42px);
+}
+.radio:checked + .relative .circle {
+  background: #000000;
+}
+.radio {
+  display: none;
+}
+.radio:checked + .relative label {
+  cursor: auto;
+  transform: translateX(42px);
+}
+.radio:checked + .relative .circle {
+  background: #bda33e;
+}
+.radio:checked ~ .jobdescrip {
+  max-height: 180px;
+  border-color: #636f83;
+  background-color: rgba(189, 163, 62, 0.15);
+  margin-right: 20px;
+  transform: translateX(20px);
+  transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
+}
+.radio:checked ~ .jobdescrip p {
+  max-height: 200px;
+  color: black;
+  transition: color 0.4s linear 0.4s;
+}
+@media screen and (max-width: 767px) {
+  #timeline {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+  }
+  #timeline li {
+    margin: 50px 0;
+  }
+  label {
+    width: 85%;
+    font-size: 1.1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    transform: translateX(18px);
+  }
+  .jobdescrip {
+    padding-top: 45px;
+    border-color: #636f83;
+  }
+  .jobdescrip:before, .jobdescrip:after {
+    border: solid transparent;
+    bottom: 100%;
+  }
+  .jobdescrip:before {
+    border-bottom-color: inherit;
+    border-width: 17px;
+    top: -16px;
+    left: 50px;
+    margin-left: -17px;
+  }
+  .jobdescrip:after {
+    border-bottom-color: #636f83;
+    border-width: 20px;
+    top: -20px;
+    left: 50px;
+    margin-left: -20px;
+  }
+  .jobdescrip p {
+    font-size: 0.9em;
+  }
+  .circle, .date {
+    display: none;
+  }
+}
+

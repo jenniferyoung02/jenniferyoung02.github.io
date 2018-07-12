@@ -1,0 +1,241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"simpl",
+				"simple_stopwatch"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jenni/Desktop/jenfox_website"
+	],
+	"file_history":
+	[
+		"/C/Users/Jenni/fundamentals/wdi-fundamentals-memorygame/code/index.html",
+		"/C/Users/Jenni/fundamentals/wdi-fundamentals-memorygame/index.html",
+		"/C/Users/Jenni/fundamentals/wdi-fundamentals-memorygame/css/style.css",
+		"/C/Users/Jenni/Desktop/jenfox_website/blog.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/about.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/arduino.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/arduino/stopwatch.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/arduino/temp_sensor.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/python/financial_advisor.html",
+		"/C/Users/Jenni/Desktop/caleb.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/style/blogpostings.css",
+		"/C/Users/Jenni/Desktop/jenfox_website/style/main.css",
+		"/C/Users/Jenni/Desktop/jenfox_website/style/blog.css",
+		"/C/Users/Jenni/Desktop/jenfox_website/blogs/big_o_notation.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/coursework/MIT_problem_sets.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/python/battleship.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/python/guess_my_number.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/python.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/coursework.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/contact.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/index.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/blogs/how_to_get_started.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/blogs/why_i_blog.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/blogs/overview_of_programming_languages.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/blogs/blank template",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/financial_advisor.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/battleship.html",
+		"/C/Users/Jenni/Desktop/jenfox_website/projects/guess_my_number.html",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/about.html",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/index.html",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/style/blog.css",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/projects.html",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/contact.html",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/blog.html",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/blogs/big_o_notation.html",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/style/blogpostings.css",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/style/main.css",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/style/projects.css",
+		"/C/Users/Jenni/Desktop/jenfox4.github.io-master/jenfox4.github.io-master/index.html",
+		"/C/Users/Jenni/Desktop/website_sublime",
+		"/C/Users/Jenni/Downloads/jenfox4.github.io-master/jenfox4.github.io-master/projects.html",
+		"/C/Users/Jenni/Downloads/jenfox4.github.io-master/jenfox4.github.io-master/blog.html",
+		"/C/Users/Jenni/Downloads/jenfox4.github.io-master/jenfox4.github.io-master/index.html",
+		"/C/Users/Jenni/Desktop/index.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 37.3333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "about.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"about.html"
+			],
+			[
+				"in",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Jenni\\Desktop\\jenfox_website\\about.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
