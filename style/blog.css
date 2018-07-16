@@ -125,7 +125,7 @@ article a {
   font-size: 1.2em;
 }
 
-.sidebar a:hover {
+#useful_links a:hover {
   text-decoration: underline;
 }
 
