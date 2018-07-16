@@ -47,6 +47,7 @@ h1 {
   font-size: 3em;
   margin: 0;
   text-align: center;
+  clear: both;
 }
 
 h2 {
@@ -263,9 +264,50 @@ label {
   }
 }
 
+#projects {
+  margin-top: 100px;
+  text-align: center;
+  margin-left: -15px;
+}
+
+#projects ul {
+  list-style-type: none;
+  margin: 0px 0px 10px 0px;
+}
+
+#projects li {
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  background: white;
+  border: 2px solid #15adde;
+  border-radius: 20px;
+  background: #d0eff8;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  box-shadow: 2px 2px 5px #15adde;
+}
+
+#projects img {
+  width: 160px;
+  height: 160px;
+  margin: 10px 0 5px 0;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#projects a {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+
 #contact {
-    margin: 100px 55px 20px 80px;
+    margin: 100px 0px 20px 0px;
     text-align: center;
+    clear:both;
 }
 
 .connect {

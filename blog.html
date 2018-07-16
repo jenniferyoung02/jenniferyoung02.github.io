@@ -2,62 +2,67 @@
 <html>
 <head>
 	<title>Jennifer Fox</title>
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./style/blog.css">   
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <header>
-  <img src="/images/jenfox.jpg">
-		<nav>
-  		<ul>
-    		<li><a href="./index.html">Home</a></li>
-        <li><a href="./projects.html">Projects</a></li>
-        <li><a href="./blog.html">Blog</a></li>
-        <li><a href="./about.html">About Me</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-  		</ul>
-  	</nav>
- </header>
-  
-  <div class="header">
-   	<h1> Back to the Basics.</h1>
-    	<p class="subtext"> A space where true beginners do not get overwhelmed by the jargon and can simply learn about the basics of computer science with no prior knowledge.</p>
- </div>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./index.html#who">About Me</a>
+      <a href="./index.html#experience">Experience</a>
+      <a href="./index.html#projects">Projects</a>
+      <a href="./index.html#contact">Contact</a>
+      <a href="./blog.html">Blog</a>
+    </nav>
+
+    <div id="main">
+      <h1> Back to the Basics</h1>
+      <h2> A blog about computer science concepts</h2>
+  </div>
+  </header>
  
- <div id="wrapper">
- <main>
+ <div class="blog_post">
      <article>
-         <img class="bloging" height="200" src="/images/learn_code.jpg" alt="How can I learn code?">
+         <img src="./images/learn_code.jpg" alt="How can I learn code?">
            <h2>How can I learn how to code?</h2>
            <span>By Jen Fox on July 6, 2018</span>
-           <p class="blog">Recently I keep getting asked the same question: how the heck can I learn how to code too? It's a lot easier and a lot cheaper (free) than you might think it is to get started! Even if you don't want to be a developer one day, learning some code can be an invaluable skill, so let's get started! <a class="link" href="/blogs/how_to_get_started.html">continue reading...</a></p>
+           <p>Recently I keep getting asked the same question: how the heck can I learn how to code too? It's a lot easier and a lot cheaper (free) than you might think it is to get started! Even if you don't want to be a developer one day, learning some code can be an invaluable skill, so let's get started! <a href="./blogs/how_to_get_started.html">read more</a></p>
        </article>   
 
      <article>
-       <img class="bloging" height="200" src="/images/bigo.jpg" alt="What is Big O Notation?">
+       <img src="./images/bigo.jpg" alt="What is Big O Notation?">
          <h2>What is Big 0 Notation?</h2>
          <span>By Jen Fox on June 25, 2018</span>
-         <p class="blog"> When you look up Big O Notation, it’s defined as a way for computer scientist and mathematicians to express the limiting behaviour of a function or the time complexity of an algorithm. If you are like me, that definition is simply overwhelming. Let’s break down that jargon and understand what the heck is a Big O Notation. <a class="link" href="blogs/big_o_notation.html">continue reading...</a></p>
+         <p> When you look up Big O Notation, it’s defined as a way for computer scientist and mathematicians to express the limiting behaviour of a function or the time complexity of an algorithm. If you are like me, that definition is simply overwhelming. Let’s break down that jargon and understand what the heck is a Big O Notation. <a href="./blogs/big_o_notation.html">read more</a></p>
      </article>	   
 	   
     <article>
-      <img class="bloging" height="200" src="/images/programminglang.jpg" alt="Overview of programming languages">
+      <img src="./images/programminglang.jpg" alt="Overview of programming languages">
          <h2>A Quick Overview of Programming Languages</h2>
          <span>By Jen Fox on June 9, 2018</span>
-          <p class="blog"> When I first heard of all the programming languages thrown my way, I was overwhelmed and frozen. I didn't know what to learn or what any of it meant. Thankfully, with hours of research, I finally begin to understand. This is a quick summary of the most popular programming languages. <a class="link" href="/blogs/overview_of_programming_languages.html">continue reading...</a></p>
+          <p> When I first heard of all the programming languages thrown my way, I was overwhelmed and frozen. I didn't know what to learn or what any of it meant. Thankfully, with hours of research, I finally begin to understand. This is a quick summary of the most popular programming languages. <a href="./blogs/overview_of_programming_languages.html">read more</a></p>
          </article>
     
       <article>
-         <img class="bloging" height="200" src="/images/whyiblog.jpg" alt="why I blog">
+         <img src="./images/whyiblog.jpg" alt="why I blog">
            <h2>Why I blog</h2>
            <span>By Jen Fox on June 8, 2018</span>
-           <p class="blog">I find the internet to be one of the most incredible resources known to man. It has helped me tremedously in journey to understanding the various aspects of computer science. Quite simply, without it I would have never been able to do any of this. However, there is a gap in the online resources out there. <a class="link" href="/blogs/why_i_blog.html">continue reading...</a></p>
+           <p>I find the internet to be one of the most incredible resources known to man. It has helped me tremedously in journey to understanding the various aspects of computer science. Quite simply, without it I would have never been able to do any of this. However, there is a gap in the online resources out there. <a href="./blogs/why_i_blog.html">read more</a></p>
        </article>   
-</main>
+     </div>
 
-   <aside>
-  	<div class="section">
+  	<div class="sidebar">
+
+      <h2>Follow Me</h2>
+      <div id="follow">
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-github"></a>
+      </div>
+
       <h2>Useful Links</h2>
         <ul>
           <li><a class="link" href="https://waitbutwhy.com/">Wait But Why</a></li>
@@ -65,9 +70,7 @@
           <li><a class="link" href="https://www.edx.org/">EdX Free Online Courses</a></li></u>
           <li><a class="link" href="https://create.arduino.cc/projecthub">Arduino Project Hub</a></li></u>
         </ul>
-      </div>
-    </aside>
-</div>
+    </div>
 
 </body>
 </html>
