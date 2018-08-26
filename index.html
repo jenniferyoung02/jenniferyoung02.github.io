@@ -1,197 +1,269 @@
 <!DOCTYPE html>
- <head>
-	<title>Jennifer Fox</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./style/main.css">
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jennifer Fox</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-<header>
-		<nav>
-			<a href="#main">Home</a>
-    	<a href="#who">About Me</a>
-    	<a href="#experience">Experience</a>
-			<a href="#projects">Projects</a>
-			<a href="#contact">Contact</a>
-			<a href="./blog.html">Blog</a>
-		</nav>
-
-	<div id="main">
-		<h1> Jennifer Fox </h1>
-		<h2> Boston Based Full Stack Developer</h2>
-	</div>
-</header>
-
-<div id="who">
-	<h1> Who Am I?</h1>
-	<img class="profile" src="https://avatars0.githubusercontent.com/u/33559116?s=400&u=db9532ddf66b9ca71b850120b266815f5fcb3866&v=4">
-	<p>As a child, I had two consistent passions. I loved learning about computers and I loved learning about the brain. My parents would always joke that even at the age of 9, I was the one to set up all the technology and knew intuitively how to operate any devices around the house. Simultaneously, I was the child who borrowed my parent’s medical school textbooks to learn more about human anatomy and the brain. Growing up, I assumed these two passions were parallel and not be intersected, so at the start of college I opted for a degree in Psychology focusing in Biological and Evolutionary Sciences and minors in English and Sociology so I could approach the brain and cognitive sciences from all angles: biologically, philosophically, anthropologically, linguistically, and psychologically. I loved college and was so deeply entrenched in my learning that I worked for two different research labs to better understand our wonderful human minds. During my senior year, reading works of Piaget pivoted my interest to consider the human brain over time and I became fascinated with child development both physically and academically. Joining Teach for America (TFA), I had the chance to better understand first hand how humans learn and grow over time. </p>
-  <p>During all this, my love for technology never faded. In my research labs, I was notorious for being the master of excel and documentation. In TFA, I was known as the teacher who tracked data meticulously and used cutting edge EdTech in the classroom for student engagement. It was no surprise to anyone when I was asked to teach Computer Science alongside of Math and Science in Boston. Having no prior knowledge in coding, the idea of learning to code and teaching code was exhilarating. I love to learn and I am a huge self-learner, so as soon as I accepted the position, I begin to teach myself how to code. I became so involved with computer science I was soon a leader of the school’s Robotics team and founded Girls Who Code at my school. </p>
-  <p>It was in the middle of teaching coding that I realized that my two passions in life-- technology and cognitive sciences-- were not parallels but in fact very much an aligned industry in 2018. It is now with great enthusiasm that I pursue the exact alignment of my life-long passions: I seek to be a Full Stack Developer in Boston for a company at the fringes of innovation intersecting at cognitive science and technology. </p>
-
-</div>
-
-<div id="experience" class="clearfix">
-	<h1>My Experience</h1>
-
-	<ul id="timeline">
-	<li class="work">
-    <input class="radio" id="work10" name="works" type="radio" checked="">
-    <div class="relative">
-      <label for="work10">General Assembly Web Immersion Program</label>
-      <span class="date">July '18 - Present</span>
-      <span class="circle"></span>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
-    <div class="jobdescrip">
-    <p>Perhaps one of the most bold decisions I have made in life is to leave behind a successful career of four years and jump into the field of technology. I love to learn and pride myself on my perseverance in the face of a challenge. I look forward to absorbing all that I can during this program. </p>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <!-- <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li> -->
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Jennifer Fox</h1>
+            <h2>Full Stack Developer</h2>
+            <a href="./images/Jennifer_Fox_Resume.pdf" class="btn-rounded-white">View Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
     </div>
-  	</li>
+    <!-- End #lead -->
+    <div id="about">
+      <h2 class="heading">About Me</h2>
+        <div class="container">
+              <img src="images/profile.jpg">
+                    <p>
+                      I am a full stack developer with a background in STEM education and a deep curiosity for all things math and science.
+                      As a Computer Science teacher with a love for learning, I taught myself how to code through online resources.
+                      While teaching myself, I quickly became passionate about the logic and problem-solving of coding and fascinated with the incredible possibilities of tech.
+                      I soon co-led the Robotics team and founded and led Girls Who Code. I worked on developing a comprehensive computer science curriculum at my school.
+                      Although I love developing curiosity in others, I quickly realized that my true passion was in coding and creating through the media of code. I decided to do
+                      the General Assembly full immersion career accelerator to learn the latest front-end and back-end tools and technologies and learn more about the computer programming
+                      industry. I can happily say taking this leap was one of the best decisions I could have made. I feel as though I have truly found my passion.
+                    <br><br>
+                      I am currently applying to full stack developer positions. As a previous educator, I have multiple skills that transfer to the tech industry including
+                      leadership, organization, attention to detail, and perseverance through problem solving. I consider myself a go-getter with a lot of grit and I accept challenges with
+                      optimism. I am seeking to work on a collobrative and growth mindset team at an innovative company whose mission seeks to better our world.
+                    </p>
+                  </div>
+              </div>
+    <!-- End #about -->
 
-	<li class="work">
-    <input class="radio" id="work9" name="works" type="radio">
-    <div class="relative">
-      <label for="work9">Edward Brooke Charter School</label>
-      <span class="date">July '17 - June '18</span>
-      <span class="circle"></span>
+        <div id="skills">
+            <h2 class="heading">Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Ruby</li>
+                <li>Node.js</li>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Sass</li>
+                <li>Grunt</li>
+                <li>jQuery</li>
+                <li>React</li>
+                <li>C / C++</li>
+                <li>Ruby on Rails</li>
+                <li>PHP</li>
+                <li>AJAX</li>
+                <li>Bootstrap</li>
+                <li>Git</li>
+                <li>Github</li>
+                <li>Gitlab</li>
+                <li>Sublime Text Editor</li>
+                <li>Atom</li>
+                <li>Spyder</li>
+                <li>Adobe Lightroom</li>
+                <li>Adobe Photoshop</li>
+          </ul>
+        </div>
+        <!-- End #skills -->
+
+            <div id="projects" class="background-alt">
+                <h2 class="heading">Projects</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/acrosstheuniverse.jpg" />
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Across The Universe: A Travel Themed Tic Tac Toe Game</h3>
+                                <p>
+                                  This single page web application is a tic tac toe game created using Javascript, HTML, CSS/ SASS, and AJAX.
+                                  The user has a choice to play against another human player or play against a computer.
+                                  As my interest has always intersected at technology and cognitive sciences, I decided to create a basic artifical intelligence
+                                  using the mathemtical decision making algorithm called the minimax algorithm. As a huge traveler, I couldn't help but
+                                  create a travel themed game to show the user a varied of world wonders.
+                                </p>
+                                <a href="https://github.com/jenfox4/tictactoe-client/">View The Code</a>
+                                <br>
+                                <a href="https://jenfox4.github.io/tictactoe-client/">View Finished Product</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+
+                        <!-- <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/project.jpg" />
+                            </div> -->
+                            <!-- End .project-image -->
+                            <!-- <div class="project-info">
+                                <h3>Project Name Here</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                                </p>
+                                <a href="#">View Project</a>
+                            </div> -->
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+                    </div>
+                </div>
+            </div>
+            <!-- End #projects -->
+
+      <!-- <div id="experience" class="background-alt">
+          <h2 class="heading">Experience</h2>
+          <div id="experience-timeline">
+              <div data-date="September 2015 – September 2016">
+                  <h3>Employer Name</h3>
+                  <h4>Job Title</h4>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                  </p>
+              </div>
+
+              <div data-date="September 2015 – September 2016">
+                  <h3>Employer Name</h3>
+                  <h4>Job Title</h4>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                  </p>
+              </div>
+
+              <div data-date="September 2015 – September 2016">
+                  <h3>Employer Name</h3>
+                  <h4>Job Title</h4>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                  </p>
+              </div>
+          </div>
+      </div>
+      End #experience
+
+      <div id="education">
+          <h2 class="heading">Education</h2>
+          <div class="education-block">
+              <h3>University of Ottawa</h3>
+              <span class="education-date">Sept 2016 - Sept 2017</span>
+              <h4>Bachelor of Science in Computer Science</h4>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+              </p>
+          </div>
+          End .education-block
+
+        <div class="education-block">
+            <h3>University of Ottawa</h3>
+            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+            </ul>
+        </div>
+         End .education-block -->
+    <!-- </div> -->
+    <!-- End #education -->
+
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+          <div class="col-sm-5 social">
+              <ul>
+                  <li>
+                      <a href="https://github.com/jenfox4" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                      <a href="https://linkedin.com/in/jenfox4/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                      <a href="https://twitter.com/bosdev_jen" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                      <a href="mailto:jenniferfox4@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <!-- End #contact-form -->
     </div>
-    <div class="jobdescrip">
-      <p>Passionate about the social justice mission statement of Brooke, I accepted a role as a Math, Scinece, and Computer Science teacher. As a natural self-learner, I begin to teach myself the basics of computer science. I helped to develop the middle school computer science cirriculum. I co-lead the Robotics team and soon launced Girls Who Code. With the help of the Nationwide Girls Who Code resources, I developed a cirriculum that would teach young minority girls to learn HTML, CSS, Python, and Ruby on Rails.</p>
-    </div>
-  	</li>
+    <!-- End #contact -->
 
-	<li class="work">
-    <input class="radio" id="work8" name="works" type="radio">
-    <div class="relative">
-      <label for="work8">International Travel</label>
-      <span class="date">July '16 - June '17</span>
-      <span class="circle"></span>
-    </div>
-    <div class="jobdescrip">
-      <p>My fiance and I spent nearly a year traveling to over 20 countries across 4 continents. While traveling, I taught math in Melbourne, Australia and English in Barcelona, Spain. Travel is another one of my passions in life. I have been to 6 continents and 50 countries. I hope to one day be amoung the few females that have been to every country in the world.</p>
-    </div>
-  </li>
+    <footer>
+        <div class="container">
+            <div class="row">
+                </div>
+                <div class="top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
 
-	<li class="work">
-    <input class="radio" id="work7" name="works" type="radio">
-    <div class="relative">
-      <label for="work7">Masters of Arts in Teaching</label>
-      <span class="date">Dec 2015</span>
-      <span class="circle"></span>
-    </div>
-    <div class="jobdescrip">
-      <p>While teaching full time in Chicago, I obtained a Masters of Arts in Teaching, endorsed in Math and Science through Dominican University. This program taught me invaluable skills both in teaching practices and understanding fundamentals of math and science.</p>
-    </div>
-  </li>
-
-	<li class="work">
-    <input class="radio" id="work6" name="works" type="radio">
-    <div class="relative">
-      <label for="work6">Teach For America</label>
-      <span class="date">June '14 - July '16</span>
-      <span class="circle"></span>
-    </div>
-    <div class="jobdescrip">
-      <p>While my focus in college was in the cognitive sciences, reading works by Piaget pivoted my cognitive science interest slightly to an interest in child development and the learning of a child both behaviorally and academically over time. Upon graduating, I accepted a position with Teach for America in Chicago not only because I strongly believe in creating equitable educational opportunities, but also better comprehend the learning process of children and how the American education system addresses this process.</p>
-    </div>
-  </li>
-
-  <li class="work">
-    <input class="radio" id="work5" name="works" type="radio">
-    <div class="relative">
-      <label for="work5">B.S. in Psychology, Bio-evolutionary Option</label>
-      <span class="date">May 2014</span>
-      <span class="circle"></span>
-    </div>
-    <div class="jobdescrip">
-      <p>I earned my Bachelors of Science in Psychology concentrating in Biological and Evolutionary Sciences from Schreyers Honors College at Penn State University in 2014. I also obtained two minors: English and Sociology. I have had a lifelong passion for understanding the cognitive science from all angles, from philosophy, linguistics, psychology, anthropology, artificial intelligence, and neuroscience. My academic journey led me to take courses in all these topics. I absolutely loved school and strived to absorb as much information as I could. I was incredibly invovled with academics and won several scholarships for the research I was conducting and my academic merits. I was able to present posters and my thesis at national conferences on executive function.</p>
-    </div>
-  </li>
-
-  <li class="work">
-    <input class="radio" id="work4" name="works" type="radio">
-    <div class="relative">
-      <label for="work4">Research Assistant and Lab Coordinator (Dr. Levy)</label>
-      <span class="date">June '12 - May '14</span>
-      <span class="circle"></span>
-    </div>
-    <div class="jobdescrip">
-      <p>I worked in Dr. Levy’s laboratory for personality, psychopathology, and psychotherapy research. Though involved in a variety of studies, I was most fascinated in the biological underpinnings of abnormalities. In the lab, I was most intrigued by our study exploring telomere degeneration in individuals with Borderline Personality Disorder to better understand how stress and sensitive perceptions of others can quite literally affect our DNA. My honors thesis was  written on neurocognition and executive function of those with Borderline Personality Disorder. </p>
-    </div>
-  </li>
-
-  <li class="work">
-    <input class="radio" id="work3" name="works" type="radio">
-    <div class="relative">
-      <label for="work3">Research Assistant (Dr. Cavigelli)</label>
-      <span class="date">Summer 2013</span>
-      <span class="circle"></span>
-    </div>
-    <div class="jobdescrip">
-      <p>I was a research assistant for the Behavioral Neuroendocrinology Lab under Dr. Cavigelli where I got to explore how health and environmental exposures can affect neural processes.</p>
-	</div>
-	</li>
-	</div>
-	</li>
-	</ul>
-	</div>
-
-<div id="projects">
-  <h1 style="padding-bottom: 40px">Projects</h1>
-  <h2> PYTHON - C/C++ - HTML - CSS - Javascript</h2>
-
-  <ul>
-      <li class="container"><a href="./projects/stopwatch.html">
-      <img src="./images/stopwatch.jpg">
-      Stopwatch
-      <div class="middle"><div class="codelang">C/C++</div></div></a></li>
-
-      <li class="container"><a href="./projects/temp_sensor.html">
-      <img src="./images/temp.jpg">
-      Temperature Sensor
-      <div class="middle"><div class="codelang">C/C++</div></div></a></li>
-
-      <li class="container"><a href="./projects/memory.html">
-      <img src="./images/memorygame.jpg">
-      Memory Game
-      <div class="middle"><div class="codelang">JavaScript, HTML, CSS</div></div></a></li>
-
-      <li class="container"><a href="./projects/battleship.html">
-      <img src="https://jenfoxportfolio.weebly.com/uploads/1/1/5/6/115679519/edited/cb01f6a8d7303cbbf61a4c45c751543b-sailing-ships-tall-ships.jpeg?1512522320">
-       Battleship Game
-       <div class="middle"><div class="codelang">Python</div></div></a></li>
-
-      <li class="container"><a href="./projects/financial_advisor.html">
-      <img src="./images/financial.jpg">
-       Financial Advisor
-       <div class="middle"><div class="codelang">Python</div></div></a></li>
-
-      <li class="container"><a href="./projects/guess_my_number.html">
-      <img src="http://medias.photodeck.com/074dda76-80b6-11e0-bf38-81baad36b6d4/ACutting%20Letter%20pile_2885_xgaplus.jpg">
-       Guess My Number
-       <div class="middle"><div class="codelang">Python</div></div></a></li>
-
-      <li class="container"><a href="./projects/chugometer.html">
-      <img src="./images/chug.jpg">
-       Chug-o-meter
-       <div class="middle"><div class="codelang">C/C++</div></div></a></li>
-  </ul>
-
-</div>
-
-<div id="contact">
-	<h1 style="padding-top: 100px; padding-bottom: 40px">Reach out</h1>
-	<p><i class="connect fa fa-envelope"></i><a href="mailto:jenniferfox4@gmail.com">Reach out by email</a></p>
-	<br>
-	<p><i class="connect fa fa-linkedin"></i><a href="https://www.linkedin.com/in/jenfox4">Connect with linkedin</a></p>
-	<br>
-    <p><i class="connect fa fa-github"></i><a href="https://github.com/jenfox4">Collaborate on github</a></p>
-	<br>
-	</div>
-	</div>
-
-	<footer>
-	<p> created by Jennifer Fox</p>
-	</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
