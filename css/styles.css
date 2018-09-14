@@ -384,8 +384,8 @@ footer {
 }
 
 #about-img {
-  height: 30%;
-  width: 30%;
+  height: 40%;
+  width: 40%;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 8px grey;
@@ -803,7 +803,13 @@ footer {
   }
   #about img {
     height: 50%;
-    width: 50%
+    width: 50%;
+    align-self: center;
+  }
+  .row-about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   #about p {
     text-align: left
@@ -876,5 +882,10 @@ footer {
   #lead-content a {
     font-size: 0.9em;
     padding: 5px 10px
+  }
+  .row-about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
