@@ -317,7 +317,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(26, 79, 110, 0.5);
+  background: rgba(26, 79, 110, 0.8);
   z-index: 1
 }
 
@@ -362,17 +362,21 @@ footer {
 }
 
 #about {
-  padding: 75px 15px;
+  padding: 40px 15px;
   border-bottom: 1px solid #dcd9d9;
   display: flex;
   flex-direction: column
 }
 
-#about h2 {
-  color: #374054;
-  text-align: center
+.about-me-header {
+  padding: 20px 0 60px 0;
+  font-weight: 300;
+  justify-content: center;
+  color: #337ab7;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Calligraffitti', cursive;
 }
-
 
 #profile-img {
   height: 30%;
@@ -873,6 +877,11 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+  .about-me-header {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.5em;
+  }
   #lead-content h1 {
     font-size: 1.5em
   }
