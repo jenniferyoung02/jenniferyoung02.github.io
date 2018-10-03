@@ -247,7 +247,7 @@ footer {
   position: relative;
   display: flex;
   justify-content: center;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 300;
   margin: 0 0 0px 0
 }
@@ -372,9 +372,10 @@ footer {
   padding: 20px 0 60px 0;
   font-weight: 300;
   justify-content: center;
-  color: #337ab7;
+  color: #ffffff;
   text-align: center;
   font-size: 2em;
+  font-family: 'Calligraffitti', cursive;
 }
 
 #profile-img {
